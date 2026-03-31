@@ -1,0 +1,23 @@
+# Sistema de Cadastro de Usuários com HTML, CSS, JavaScript e Firebase
+Este é um sistema simples de cadastro de usuários, onde é possível adicionar, visualizar e remover dados armazenados em tempo real no Firebase. O objetivo do projeto é demonstrar habilidades em desenvolvimento front-end com integração a um backend na nuvem.
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Firebase Realtime Database
+- Git e GitHub
+
+  ## Conceitos abordados
+
+- CRUD com Firebase
+- Manipulação de DOM com JavaScript puro
+- Responsividade com CSS
+- Deploy com Firebase Hosting
+
+## Funcionalidades
+
+- Cadastro de usuários com nome e e-mail
+- Armazenamento de dados no Firebase
+- Exibição dos dados em tempo real
+- Remoção de usuários cadastrados
