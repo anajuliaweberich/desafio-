@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <button>clique</button>
+    <div>
+        <h1>Cadastro de tarefas</h1>
+        <a href="./listarTarefas.html">Ver tarefas criadas</a>
+        <div>
+            <label>Titulo da tarefa</label><br>
+            <input id="titulo" type="text" placeholder="Titulo da tarefa">
+        </div>
+        <div>
+            <label>Descricao da tarefa</label><br>
+            <textarea id="descricao" placeholder="Descricao da tarefa"></textarea>
+        </div>
+       <button onclick="criarTarefa()">CADASTRAR</button>
+        <p id="mensagemsucesso"></p>
+        <p id="mensagemfracasso"></p>
+    </div>
    <script src="/script.js"></script>
 </body>
 </html>
